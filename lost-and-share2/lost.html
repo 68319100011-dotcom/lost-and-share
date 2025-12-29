@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ของหาย - Lost & Share</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>แจ้งของหาย</h1>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="found.html">ของเจอ</a>
+      <a href="donate.html">บริจาคของ</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>กรอกข้อมูลของที่หาย</h2>
+    <form id="lostForm">
+      <input type="text" placeholder="ชื่อสิ่งของ" required>
+      <textarea placeholder="รายละเอียดเพิ่มเติม"></textarea>
+      <input type="text" placeholder="สถานที่หาย" required>
+      <input type="date" required>
+      <input type="text" placeholder="ชื่อผู้แจ้ง / ช่องทางติดต่อ" required>
+      <button type="submit">ส่งข้อมูล</button>
+    </form>
+
+    <h3>รายการของหายล่าสุด</h3>
+    <div id="lostList"></div>
+  </main>
+
+  <footer>© 2025 Lost & Share</footer>
+</body>
+</html>
